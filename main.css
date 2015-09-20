@@ -1,0 +1,93 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+a{
+  font-weight: bold;
+}
+
+th, td{
+  border-left: black 1px solid;
+  border-bottom: black 1px solid;
+}
+
+th{
+  font-weight: 900;
+}
+
+.postShowPhoto{
+  margin-top: 15px;
+  background-color: #F7F7F7;
+  height: 220px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.postRating{
+  margin-top:10px;
+  margin-left: 20px;
+  background-color: #F7F7F7;
+  height: 40px;
+  font-size: 30px;
+  padding-right: 50px;
+  border-radius:2px;
+}
+
+.postDescriptionText{
+  margin-top:10px;
+  margin-left: 20px;
+  background-color: #F7F7F7;
+  height: 130px;
+  padding-right: 50px;
+  font-size: 20px;
+  overflow: scroll;
+  border-radius: 3px;
+}
+
+.postDetails{
+  margin-top:10px;
+  margin-left: 20px;
+  background-color: #F7F7F7;
+  height: 40px;
+  font-size: 30px;
+  padding-right: 50px;
+  border-radius:2px;
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}
+
+.black{
+  color: black;
+}
+
+.mini{
+  font-size: 15px;
+}
+
+.commentForm{
+  margin-top:20px;
+}
+
+.commentsShown{
+  margin-top:20px;
+}
+
+.postContainer{
+  background-color: #E1E1E1;
+  display: table-cell;
+  height: auto;
+  margin-top:20px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.cursorSelect{
+  cursor: pointer;
+}
